@@ -1,16 +1,12 @@
 # CAS Client library
 
-CAS provides a http package compatible client implementation for use with
-securing http frontends in golang.
+This is a fork of https://github.com/go-cas/cas and continuation of their work with updates and hopefully some useful
+QOL features.
+
+CAS provides a http package compatible client implementation for use with securing http frontends in golang.
 
 ```
-import "gopkg.in/cas.v2"
-```
-
-If you are using go modules, get the library by running:
-
-```
-go get gopkg.in/cas.v2@v2.2.1
+go get github.com/btassone/go-cas@v2.2.1
 ```
 
 ## Examples and Documentation

@@ -42,7 +42,7 @@ func (validator *ServiceTicketValidator) ValidateTicket(serviceURL *url.URL, tic
 		return nil, err
 	}
 
-	r.Header.Add("User-Agent", "Golang CAS client gopkg.in/cas")
+	r.Header.Add("User-Agent", "Golang CAS client github.com/bttassone/go-cas")
 
 	if glog.V(2) {
 		glog.Infof("Attempting ticket validation with %v", r.URL)
@@ -117,7 +117,7 @@ func (validator *ServiceTicketValidator) validateTicketCas1(serviceURL *url.URL,
 		return nil, err
 	}
 
-	r.Header.Add("User-Agent", "Golang CAS client gopkg.in/cas")
+	r.Header.Add("User-Agent", "Golang CAS client github.com/bttassone/go-cas")
 
 	if glog.V(2) {
 		glog.Infof("Attempting ticket validation with %v", r.URL)
